@@ -10,8 +10,7 @@ function App() {
     if (permission === "granted") {
       // Generate Token
       const token = await getToken(messaging, {
-        vapidKey:
-          "BBFoJyci6SBM845snVXhs2kxnPrTsgEXGdl0TS_o-_0yYLoTkhSBCra2rnADvIVYrp9WCcgjMs_7gSnyPRcnIHA",
+        vapidKey: 'VAPID key'
       });
       console.log("Token Gen", token);
       // Send this token  to server ( db)
