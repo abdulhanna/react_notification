@@ -11,7 +11,8 @@ function App() {
       // Generate Token
       const token = await getToken(messaging, {
         vapidKey:
-          "BBFoJyci6SBM845snVXhs2kxnPrTsgEXGdl0TS_o-_0yYLoTkhSBCra2rnADvIVYrp9WCcgjMs_7gSnyPRcnIHA",
+          // "BBFoJyci6SBM845snVXhs2kxnPrTsgEXGdl0TS_o-_0yYLoTkhSBCra2rnADvIVYrp9WCcgjMs_7gSnyPRcnIHA",
+          "BPD3QJw_v9snYFH-gUNSLUz6JFMo9zDOKeYETXP3N_SHXHZEae756Qie1v7W5haOnZQISj1HmNh7mL9vzJYfcaw"
       });
       console.log("Token Gen", token);
       // Send this token  to server ( db)
